@@ -1,0 +1,643 @@
+﻿/*
+"Blackboard" v 1.0 
+Website Template 
+created by www.i3dthemes.com
+
+*/
+/* -----------------------------------------
+:: BASE STYLES #555555 #222222
+----------------------------------------- */
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+body {
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.42857143;
+	color: #000000;
+	background-color: #fdfcfa;
+}
+
+/* -----------------------------------------
+:: LINKS
+----------------------------------------- */
+a {
+	color: #3498db;
+	text-decoration: none;
+}
+
+a:hover, a:focus {
+	color: #1d6fa5;
+	text-decoration: none;
+}
+
+/* -----------------------------------------
+:: IMG TAG
+----------------------------------------- */
+img {
+	vertical-align: middle;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-rounded {
+	border-radius: 6px;
+}
+
+.img-thumbnail {
+	padding: 4px;
+	line-height: 1.42857143;
+	background-color: #fdfcfa;
+	border: 1px solid #dddddd;
+	border-radius: 4px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+/* -----------------------------------------
+:: HORIZONTAL RULE 
+----------------------------------------- */
+hr {
+	margin-top: 22px;
+	margin-bottom: 22px;
+	border: 0;
+	border-top: 1px solid #eeeeee;
+}
+
+/* -----------------------------------------
+:: H1-H6 
+----------------------------------------- */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	line-height: 1.1;
+	color: inherit;
+}
+
+h1, .h1, h2, .h2, h3, .h3 {
+	margin-top: 22px;
+	margin-bottom: 11px;
+}
+
+h4, .h4, h5, .h5, h6, .h6 {
+	margin-top: 11px;
+	margin-bottom: 11px;
+}
+
+h1, .h1 {
+	font-size: 41px;
+}
+
+h2, .h2 {
+	font-size: 34px;
+}
+
+h3, .h3 {
+	font-size: 28px;
+}
+
+h4, .h4 {
+	font-size: 20px;
+}
+
+h5, .h5 {
+	font-size: 16px;
+}
+
+h6, .h6 {
+	font-size: 14px;
+}
+
+/* -----------------------------------------
+:: PARAGRAPHS 
+----------------------------------------- */
+p {
+	margin: 0 0 11px;
+}
+
+.lead {
+	margin-bottom: 22px;
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+@media (min-width: 768px) {
+.lead {
+	font-size: 24px;
+}
+
+}
+.phover:hover {
+	background: #111111;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+/* -----------------------------------------
+:: BLOCKQUOTE 
+----------------------------------------- */
+blockquote {
+	padding: 11px 22px;
+	margin: 0 0 22px;
+	font-size: 20px;
+	border-left: 5px solid #eeeeee;
+}
+
+blockquote p:last-child, blockquote ul:last-child, blockquote ol:last-child {
+	margin-bottom: 0;
+}
+
+blockquote footer, blockquote small, blockquote .small {
+	display: block;
+	font-size: 80%;
+	line-height: 1.42857143;
+	color: #777777;
+}
+
+blockquote footer:before, blockquote small:before, blockquote .small:before {
+	content: '\2014 \00A0';
+}
+
+.blockquote-reverse, blockquote.pull-right {
+	padding-right: 15px;
+	padding-left: 0;
+	border-right: 5px solid #eeeeee;
+	border-left: 0;
+	text-align: right;
+}
+
+.blockquote-reverse footer:before, blockquote.pull-right footer:before, .blockquote-reverse small:before, blockquote.pull-right small:before, .blockquote-reverse .small:before, blockquote.pull-right .small:before {
+	content: '';
+}
+
+.blockquote-reverse footer:after, blockquote.pull-right footer:after, .blockquote-reverse small:after, blockquote.pull-right small:after, .blockquote-reverse .small:after, blockquote.pull-right .small:after {
+	content: '\00A0 \2014';
+}
+
+/* -----------------------------------------
+:: SECTIONS / PAGE HEADINGS H1 / SECTION HEADINGS H2
+----------------------------------------- */
+.wowed h1 {
+	opacity: 0;
+}
+
+.wow {
+	visibility: hidden;
+}
+
+/*section heading1*/
+.section-heading {
+	margin: 0 auto 0 auto;
+	position: relative;
+	text-align: center;
+}
+
+.section-heading h1, .section-heading h2 {
+	position: relative;
+	z-index: 1;
+	text-transform: capitalize;
+}
+
+.section-heading h1:nth-of-type(2), .section-heading h2:nth-of-type(2)  {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#3498DB;
+    margin-top:-10px;
+    font-weight:400;
+	font-size:45px;
+
+}
+.section-heading-title h2 {
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.section-heading-desc p.lead {
+	font-size: 20px;
+}
+
+.section--breadcrumb {
+	text-align: center;
+}
+
+.section--breadcrumb h1 {
+	margin: 22px auto 0;
+	padding: 0;
+	line-height: 1;
+	color: #ffffff;
+	color: rgba(255,255,255,0.7);
+}
+
+.section--breadcrumb li.active {
+	color: #ffffff;
+	color: rgba(255,255,255,0.6);
+}
+
+@media (min-width: 992px) {
+.section--breadcrumb {
+	text-align: left;
+}
+
+}
+/* -----------------------------------------
+:: ARTICLE HEADINGS
+----------------------------------------- */
+/*content heading1*/
+.article-heading {
+	padding: 30px 20px;
+}
+
+.article-heading h3 {
+	margin-bottom: 5px;
+	margin-top: 0;
+	text-transform: capitalize;
+}
+
+.article-heading h3:nth-of-type(2) {
+    font-weight: 400;
+    color:#3498DB;
+}
+/* -----------------------------------------
+:: COLORED SECTION HEADINGS
+----------------------------------------- */
+/* section heading left */
+.section-heading-left {
+	padding-bottom: 50px;
+}
+
+.section-heading-left h2, .section-heading-left h3, .section-heading-left p {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+}
+
+.section-heading-left h2 {
+	color: #F25826;
+}
+
+.section-heading-left h2 {
+	font-size: 45px;
+}
+
+.section-heading-left h3 {
+	color: #5A5A5A;
+	font-weight: 400;
+	font-family: "Open Sans";
+	font-size: 24px;
+	text-align: center;
+}
+
+section-heading-left p {
+}
+
+/* section heading right */
+.section-heading-right {
+	padding-bottom: 50px;
+}
+
+.section-heading-right h2, .section-heading-right h3, .section-heading-right p {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+	line-height: 1.1;
+}
+
+/* -----------------------------------------
+:: DARK SECTION HEADINGS
+----------------------------------------- */
+.section-dark {
+	color: #e8e8e8;
+	color: rgba(232,232,232,0.75);
+}
+
+.section-dark .article-heading {
+	padding-top: 35px;
+}
+
+.section-parallax-dark {
+	color: #e8e8e8;
+	color: rgba(232,232,232,0.75);
+}
+
+.section-parallax-dark .article-heading {
+	padding-top: 35px;
+}
+
+/* -----------------------------------------
+:: SECTION--DARK
+----------------------------------------- */
+.section--dark h1, .section--dark h2, .section--dark h3, .section--dark h4, .section--dark h5, .section--dark h6 {
+	color: #ffffff;
+	color: rgba(255,255,255,0.7);
+}
+
+.section--dark p, .section--dark li {
+	color: #ffffff;
+}
+
+.section--dark {
+	color: #ffffff;
+	color: rgba(255,255,255,0.4);
+}
+
+.section1 .section-black .section--dark p {
+	color: #000000!important;
+}
+
+/* -----------------------------------------
+:: HIGHLIGHTS 
+----------------------------------------- */
+.highlight1, .highlight1 a {
+	color: #3498DB;
+}
+
+.highlight1 a:hover {
+	color: #111;
+}
+
+.highlight2, .highlight2 a {
+	color: #A93222;
+}
+
+.highlight2 a:hover {
+	color: #111;
+}
+
+.highlight3, .highlight3 a {
+	color: #83271A;
+}
+
+.highlight3 a:hover {
+	color: #111;
+}
+
+.highlight4, .highlight4 a {
+	color: #ffffff;
+}
+
+.highlight4 a:hover {
+	color: #111;
+}
+
+.colorblack {
+	color: #000;
+}
+
+.alternative-font {
+	font-family: "Shadows Into Light",cursive;
+	font-size: 30px;
+}
+
+.alternative-angle {
+	transform: rotate(-7deg);
+}
+
+.morphext > .animated {
+	display: inline-block;
+}
+
+@media (min-width: 992px) {
+.pull-left-big {
+	margin-left: -200px;
+	margin-top: 100px;
+}
+
+}
+
+/* -----------------------------------------
+:: FEATURED LISTS 
+----------------------------------------- */
+.features-list h4 {
+	margin: 40px 0;
+	padding: 0 0 0 40px;
+	position: relative;
+}
+
+.features-list h4:before {
+	content: "\f00c";
+	display: block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 2px solid #3498DB;
+	border-radius: 50%;
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	display: inline-block;
+	text-decoration: inherit;
+	text-align: center;
+	padding-top: 2px;
+}
+
+/* -----------------------------------------
+:: LISTS 
+----------------------------------------- */
+/*default list styles*/
+ul, ol {
+	margin-top: 0;
+	margin-bottom: 11px;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+	margin-bottom: 0;
+}
+
+.list-unstyled {
+	padding-left: 0;
+	list-style: none;
+}
+
+.list-inline {
+	padding-left: 0;
+	list-style: none;
+	margin-left: -5px;
+}
+
+.list-inline > li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+dl {
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+dt, dd {
+	line-height: 1.42857143;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin-left: 0;
+}
+
+ol {
+	counter-reset: li; ;
+	list-style: none;
+*list-style: decimal;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+ol ol {
+	margin: 0 0 0 40px;
+}
+
+ol.list1 li ol {
+	margin: 0 0 0 20px;
+}
+
+/*list1*/
+.list1 a {
+	position: relative;
+	display: block;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0;
+	background: #3498DB;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 3px;
+	transition: all .3s ease-out;
+}
+
+.list1 {
+	margin: 0 0 0 20px;
+}
+
+.list1 a:hover {
+	background: #111111;
+}
+
+.list1 a:hover:before {
+	transform: rotate(360deg);
+}
+
+.list1 a:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -20px;
+	top: 50%;
+	margin-top: -20px;
+	background: #3498DB;
+	height: 40px;
+	width: 40px;
+	line-height: 30px;
+	border: 5px solid #e8e8e8;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 50%;
+	transition: all .3s ease-out;
+	color: #ffffff;
+}
+
+/*list2*/
+.list2 a {
+	position: relative;
+	display: block;
+	padding: 5px 30px 5px 30px;
+	margin: 10px 0 10px 40px;
+	background: #222222;
+	background: rgba(0, 0, 0, 0.25);
+	color: #3498DB;
+	text-decoration: none;
+	transition: all .3s ease-out;
+}
+
+.list2 a:hover {
+	background: #111111;
+	background: rgba(0, 0, 0, 0.50);
+}
+
+.list2 a:before {
+	content: counter(li);
+	counter-increment: li;
+	position: absolute;
+	left: -40px;
+	top: 50%;
+	margin-top: -16px;
+	background: #3498DB;
+	height: 32px;
+	width: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.list2 a:after {
+	position: absolute;
+	content: '';
+	border: 8px solid transparent;
+	left: -20px;
+	top: 50%;
+	margin-top: -8px;
+	transition: all .3s ease-out;
+}
+
+.list2 a:hover:after {
+	left: -8px;
+	border-left-color: #3498DB;
+}
+
+/*list3*/
+ul.list3 {
+	list-style-image: url('../graphics/list3.png');
+	vertical-align: middle;
+}
+
+/* -----------------------------------------
+:: MOBILE to TABLE 0-1025PX START
+----------------------------------------- */
+.pad5 {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.pad0 {
+	padding-left: 0!important;
+	padding-right: 0!important;
+}
+
+/* -----------------------------------------
+:: MOBILE VIDEO CONTAINER
+----------------------------------------- */
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px;
+	height: 0;
+	overflow: hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
