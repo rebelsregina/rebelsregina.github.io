@@ -72,6 +72,16 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 </head>
 <body class=" template">
+<div id="fb-root"></div>
+
+ <script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	
 <script>
 document.body.className = document.body.className.replace("designview","");
 //document.getElementByTagName("body")[0].removeClass("designview");
@@ -651,9 +661,10 @@ document.body.className = document.body.className.replace("designview","");
 						<div class="col-md-6 news-grid">
 							<a href="about.html">Club Registrations Open</a>
 							<h6>Jan 01,2017</h6>
-							<img src="images/7.jpg" alt="">
 							<div class="news-info">
-								<p>Player registration  for 2017 will be 150$. Player can pay their fee through etransfer or cash. All fees must be paid in full before April 2017</p>
+								<div class="fb-post" 
+      								data-href="https://www.facebook.com/rebelsreginacc/photos/a.1080905695266144.1073741829.1045052258851488/1383617858328258/"
+     								data-width="500"></div>
 							</div>
 						</div>
 						<div class="col-md-6 news-grid news-grid-text">
