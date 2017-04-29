@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "rebelsuser" && password == "x1rebelscc"){
-window.location = "http://www.reginarebels.club/jerseydetails.html"; // Redirecting to other page.
+window.location = "https://docs.google.com/spreadsheets/d/1mGx6fGc1H5PrT-5H-5PgIIxHwDAfhQ1byS_z8Q_jVhg/pubhtml"; // Redirecting to other page.
 return false;
 }
 else{
