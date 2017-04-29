@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "rebelsuser" && password == "x1rebelscc"){
-window.location = "http://www.reginarebels.club/budget.html"; // Redirecting to other page.
+window.location = "https://docs.google.com/spreadsheets/d/1lZtq4yGzwf-p4Ufc_BPACsHEOKyPOCZznRz5FBFIgG4/pubhtml"; // Redirecting to other page.
 return false;
 }
 else{
