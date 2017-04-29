@@ -100,9 +100,28 @@ document.body.className = document.body.className.replace("designview","");
 								<ul class="nav navbar-nav">
 									<li class="hvr-bounce-to-bottom"><a href="index.html" class="active">Home</a></li>
 									<li class="hvr-bounce-to-bottom"><a href="about.html">About</a></li>
-									<li><a href="Statistics.html">Standings</a></li>
+									<li><a href="#" class="menu1">Statistics<span class="glyphicon glyphicon-menu-down" aria-hidden="true"></span></a></li>
+										<ul class="nav-sub">
+											<li><a href="login.html">Club Budget</a></li>
+											<li><a href="jerseylogin.html">Jersey Analysis</a></li>
+											<li><a href="playerlogin.html">Player Details</a></li>											
+												<script>
+													$( "li a.menu" ).click(function() {
+													$( "ul.nav-sub1" ).slideToggle( 300, function() {
+													// Animation complete.
+													});
+													});
+												</script>
+												</ul>
+										<!-- script-for-menu -->
+										<script>
+											$( "li a.menu1" ).click(function() {
+											$( "ul.nav-sub" ).slideToggle( 300, function() {
+											// Animation complete.
+											});
+											});
+										</script>
 									<li><a href="gallery.html" >Gallery</a></li>
-									<li><a href="login.html" >Club Budget and Analysis</a></li>
 									<li><a href="slogin.html" >Shedule - 2017</a></li>
 									<li><a href="#news" class="scroll">News</a></li>
 									<li><a href="contact.html">Contact</a></li>
