@@ -4,7 +4,7 @@ function validate(){
 var username = document.getElementById("username").value;
 var password = document.getElementById("password").value;
 if ( username == "rebelsuser" && password == "x1rebelscc"){
-window.location = "http://www.reginarebels.club/playerdetails.html"; // Redirecting to other page.
+window.location = "https://docs.google.com/spreadsheets/d/1vIkdUy98N6UA2WIkvsIs0SLr3ujSrWlRwR435uEi8M0/pubhtml"; // Redirecting to other page.
 return false;
 }
 else{
